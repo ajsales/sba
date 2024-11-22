@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.navlinks {
+    margin: 20px 0;
+    border: 2px;
+    border-style: solid none;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.navlink {
+    font-size: 24px;
+}
+
+.intro {
+    text-align: center;
+    color: #002E6D;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid;
+    border-radius: 10px;
+    flex: 1 0 25%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box h2 {
+    color: #002E6D;
+}
+
+.box button {
+    background-color: #297EBD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
